@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.css';
+
 import Navigation from "./components/Navigation";
 import BiographyPage from "./components/BiographyPage";
 import EducationPage from "./components/EducationPage";
@@ -24,23 +25,23 @@ root.render(
       <Navigation/>
       <Container><App/></Container>
       <hr/>
-      <Container><BiographyPage id="bio"/></Container>
+      <Container id="bio"><BiographyPage/></Container>
       <hr/>
-      <Container><EducationPage id="education"/></Container>
+      <Container id="education"><EducationPage/></Container>
       <hr/>
-      <Container><WorkPage id="experience"/></Container>
+      <Container id="experience"><WorkPage/></Container>
       <hr/>
-      <Container><QualitiesPage id="qualities"/></Container>
+      <Container id="qualities"><QualitiesPage/></Container>
       <hr/>
-      <Container><SkillsPage id="skills"/></Container>
+      <Container id="skills"><SkillsPage/></Container>
       <hr/>
-      <Container><DevelopmentPage id="development"/></Container>
+      <Container id="development"><DevelopmentPage/></Container>
       <hr/>
-      <Container><ActivitiesPage id="activities"/></Container>
+      <Container id="activities"><ActivitiesPage/></Container>
       <hr/>
-      <Container><HobbiesPage id="hobbies"/></Container>
+      <Container id="hobbies"><HobbiesPage/></Container>
       <hr/>
-      <Container><ContactPage id="contact"/></Container>
+      <Container id="contact"><ContactPage/></Container>
       <hr/>
       <Footer/>
   </React.StrictMode>
