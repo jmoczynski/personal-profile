@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter, Routes, Route} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Navigation from "./components/Navigation";
@@ -16,25 +15,34 @@ import DevelopmentPage from "./components/DevelopmentPage";
 import ActivitiesPage from "./components/ActivitiesPage";
 import HobbiesPage from "./components/HobbiesPage";
 import ContactPage from "./components/ContactPage";
+import Container from "react-bootstrap/Container";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Navigation/>
-      <HashRouter basename="/personal-profile">
-          <Routes>
-              <Route path="/home" element={<App/>}/>
-              <Route path="/bio" element={<BiographyPage/>}/>
-              <Route path="/education" element={<EducationPage/>}/>
-              <Route path="/experience" element={<WorkPage/>}/>
-              <Route path="/qualities" element={<QualitiesPage/>}/>
-              <Route path="/skills" element={<SkillsPage/>}/>
-              <Route path="/development" element={<DevelopmentPage/>}/>
-              <Route path="/activities" element={<ActivitiesPage/>}/>
-              <Route path="/hobbies" element={<HobbiesPage/>}/>
-              <Route path="/contact" element={<ContactPage/>}/>
-          </Routes>
-      </HashRouter>
+      <Container><App/></Container>
+      <hr/>
+      <Container><BiographyPage id="bio"/></Container>
+      <hr/>
+      <Container><EducationPage id="education"/></Container>
+      <hr/>
+      <Container><WorkPage id="experience"/></Container>
+      <hr/>
+      <Container><QualitiesPage id="qualities"/></Container>
+      <hr/>
+      <Container><SkillsPage id="skills"/></Container>
+      <hr/>
+      <Container><DevelopmentPage id="development"/></Container>
+      <hr/>
+      <Container><ActivitiesPage id="activities"/></Container>
+      <hr/>
+      <Container><HobbiesPage id="hobbies"/></Container>
+      <hr/>
+      <Container><ContactPage id="contact"/></Container>
+      <hr/>
+      <Footer/>
   </React.StrictMode>
 );
 
