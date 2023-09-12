@@ -23,7 +23,6 @@ root.render(
       <Navigation/>
       <BrowserRouter>
           <Routes>
-              <Route index element={<App/>}/>
               <Route path="/" element={<App/>}/>
               <Route path="/bio" element={<BiographyPage/>}/>
               <Route path="/education" element={<EducationPage/>}/>
