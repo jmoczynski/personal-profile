@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Navigation from "./components/Navigation";
@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Navigation/>
-      <BrowserRouter basename="/personal-profile">
+      <HashRouter basename="/personal-profile">
           <Routes>
               <Route path="/home" element={<App/>}/>
               <Route path="/bio" element={<BiographyPage/>}/>
@@ -34,7 +34,7 @@ root.render(
               <Route path="/hobbies" element={<HobbiesPage/>}/>
               <Route path="/contact" element={<ContactPage/>}/>
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>
 );
 
