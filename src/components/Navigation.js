@@ -5,7 +5,7 @@ function Navigation(){
     return(
         <Container>
             <Navbar expand="lg">
-                <Navbar.Brand href="/">Justin Moczynski</Navbar.Brand>
+                <Navbar.Brand href="/personal-profile/">Justin Moczynski</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navigation"/>
                 <Navbar.Collapse id="navigation">
                     <Container>
