@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Container} from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
