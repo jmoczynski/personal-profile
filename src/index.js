@@ -23,16 +23,16 @@ root.render(
       <Navigation/>
       <BrowserRouter>
           <Routes>
-              <Route index path="/home" element={<App/>}/>
-              <Route path="/bio" element={<BiographyPage/>}/>
-              <Route path="/education" element={<EducationPage/>}/>
-              <Route path="/experience" element={<WorkPage/>}/>
-              <Route path="/qualities" element={<QualitiesPage/>}/>
-              <Route path="/skills" element={<SkillsPage/>}/>
-              <Route path="/development" element={<DevelopmentPage/>}/>
-              <Route path="/activities" element={<ActivitiesPage/>}/>
-              <Route path="/hobbies" element={<HobbiesPage/>}/>
-              <Route path="/contact" element={<ContactPage/>}/>
+              <Route path="/personal-profile/" element={<App/>}/>
+              <Route path="/personal-profile/bio" element={<BiographyPage/>}/>
+              <Route path="/personal-profile/education" element={<EducationPage/>}/>
+              <Route path="/personal-profile/experience" element={<WorkPage/>}/>
+              <Route path="/personal-profile/qualities" element={<QualitiesPage/>}/>
+              <Route path="/personal-profile/skills" element={<SkillsPage/>}/>
+              <Route path="/personal-profile/development" element={<DevelopmentPage/>}/>
+              <Route path="/personal-profile/activities" element={<ActivitiesPage/>}/>
+              <Route path="/personal-profile/hobbies" element={<HobbiesPage/>}/>
+              <Route path="/personal-profile/contact" element={<ContactPage/>}/>
           </Routes>
       </BrowserRouter>
   </React.StrictMode>

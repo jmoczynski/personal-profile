@@ -10,16 +10,16 @@ function Navigation(){
                 <Navbar.Collapse id="navigation">
                     <Container>
                         <Nav>
-                            <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/bio">Biography</Nav.Link>
-                            <Nav.Link href="/education">Education</Nav.Link>
-                            <Nav.Link href="/experience">Work Experience</Nav.Link>
-                            <Nav.Link href="/qualities">Personal Qualities</Nav.Link>
-                            <Nav.Link href="/skills">Skills and Certifications</Nav.Link>
-                            <Nav.Link href="/development">Professional Development</Nav.Link>
-                            <Nav.Link href="/activities">Activities and Involvement</Nav.Link>
-                            <Nav.Link href="/hobbies">Hobbies</Nav.Link>
-                            <Nav.Link href="/contact">Contact</Nav.Link>
+                            <Nav.Link href="/personal-profile/">Home</Nav.Link>
+                            <Nav.Link href="/personal-profile/bio">Biography</Nav.Link>
+                            <Nav.Link href="/personal-profile/education">Education</Nav.Link>
+                            <Nav.Link href="/personal-profile/experience">Work Experience</Nav.Link>
+                            <Nav.Link href="/personal-profile/qualities">Personal Qualities</Nav.Link>
+                            <Nav.Link href="/personal-profile/skills">Skills and Certifications</Nav.Link>
+                            <Nav.Link href="/personal-profile/development">Professional Development</Nav.Link>
+                            <Nav.Link href="/personal-profile/activities">Activities and Involvement</Nav.Link>
+                            <Nav.Link href="/personal-profile/hobbies">Hobbies</Nav.Link>
+                            <Nav.Link href="/personal-profile/contact">Contact</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar.Collapse>
