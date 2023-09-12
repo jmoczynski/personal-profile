@@ -5,12 +5,12 @@ function Navigation(){
     return(
         <Container>
             <Navbar expand="lg">
-                <Navbar.Brand href="/">Justin Moczynski</Navbar.Brand>
+                <Navbar.Brand href="/home">Justin Moczynski</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navigation"/>
                 <Navbar.Collapse id="navigation">
                     <Container>
                         <Nav>
-                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/bio">Biography</Nav.Link>
                             <Nav.Link href="/education">Education</Nav.Link>
                             <Nav.Link href="/experience">Work Experience</Nav.Link>
