@@ -23,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Navigation/>
-      <Container><App/></Container>
+      <Container id="home"><App/></Container>
       <hr/>
       <Container id="bio"><BiographyPage/></Container>
       <hr/>

@@ -7,7 +7,7 @@ function Navigation(){
             <Navbar.Toggle aria-controls="navigation"/>
             <Navbar.Collapse id="navigation">
                 <Nav>
-                    <Nav.Link href="/personal-profile/">Home</Nav.Link>
+                    <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#bio">Biography</Nav.Link>
                     <Nav.Link href="#education">Education</Nav.Link>
                     <Nav.Link href="#experience">Work Experience</Nav.Link>
