@@ -15,4 +15,6 @@ code {
 .container {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
+  text-align: center !important;
+  align-content: center !important;
 }
