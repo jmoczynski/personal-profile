@@ -1,6 +1,5 @@
 import Container from "react-bootstrap/Container";
 import {Navbar, Nav} from "react-bootstrap";
-import {NavLink} from "react-router-dom";
 
 function Navigation(){
     return(
@@ -11,16 +10,16 @@ function Navigation(){
                 <Navbar.Collapse id="navigation">
                     <Container>
                         <Nav>
-                            <Nav.Link><NavLink to="/">Home</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/bio">Biography</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/education">Education</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/experience">Work Experience</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/qualities">Personal Qualities</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/skills">Skills and Certifications</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/development">Professional Development</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/activities">Activities and Involvement</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/hobbies">Hobbies</NavLink></Nav.Link>
-                            <Nav.Link><NavLink to="/contact">Contact</NavLink></Nav.Link>
+                            <Nav.Link href="/personal-profile/">Home</Nav.Link>
+                            <Nav.Link href="/personal-profile/bio">Biography</Nav.Link>
+                            <Nav.Link href="/personal-profile/education">Education</Nav.Link>
+                            <Nav.Link href="/personal-profile/experience">Work Experience</Nav.Link>
+                            <Nav.Link href="/personal-profile/qualities">Personal Qualities</Nav.Link>
+                            <Nav.Link href="/personal-profile/skills">Skills and Certifications</Nav.Link>
+                            <Nav.Link href="/personal-profile/development">Professional Development</Nav.Link>
+                            <Nav.Link href="/personal-profile/activities">Activities and Involvement</Nav.Link>
+                            <Nav.Link href="/personal-profile/hobbies">Hobbies</Nav.Link>
+                            <Nav.Link href="/personal-profile/contact">Contact</Nav.Link>
                         </Nav>
                     </Container>
                 </Navbar.Collapse>
