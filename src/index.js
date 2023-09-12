@@ -3,16 +3,39 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.css';
+import Navigation from "./components/Navigation";
+import BiographyPage from "./components/BiographyPage";
+import EducationPage from "./components/EducationPage";
+import WorkPage from "./components/WorkPage";
+import QualitiesPage from "./components/QualitiesPage";
+import SkillsPage from "./components/SkillsPage";
+import DevelopmentPage from "./components/DevelopmentPage";
+import ActivitiesPage from "./components/ActivitiesPage";
+import HobbiesPage from "./components/HobbiesPage";
+import ContactPage from "./components/ContactPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <HashRouter>
-          <App/>
-      </HashRouter>
+      <Navigation/>
+      <BrowserRouter>
+          <Routes>
+              <Route index element={<App/>}/>
+              <Route path="/" element={<App/>}/>
+              <Route path="/bio" element={<BiographyPage/>}/>
+              <Route path="/education" element={<EducationPage/>}/>
+              <Route path="/experience" element={<WorkPage/>}/>
+              <Route path="/qualities" element={<QualitiesPage/>}/>
+              <Route path="/skills" element={<SkillsPage/>}/>
+              <Route path="/development" element={<DevelopmentPage/>}/>
+              <Route path="/activities" element={<ActivitiesPage/>}/>
+              <Route path="/hobbies" element={<HobbiesPage/>}/>
+              <Route path="/contact" element={<ContactPage/>}/>
+          </Routes>
+      </BrowserRouter>
   </React.StrictMode>
 );
 
