@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jmoczynski.github.io/personal-profile/static/css/main.073c9b0a.css",
+    "main.js": "/jmoczynski.github.io/personal-profile/static/js/main.0fd55895.js",
+    "static/js/787.f586a476.chunk.js": "/jmoczynski.github.io/personal-profile/static/js/787.f586a476.chunk.js",
+    "static/media/logo.svg": "/jmoczynski.github.io/personal-profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jmoczynski.github.io/personal-profile/index.html",
+    "main.073c9b0a.css.map": "/jmoczynski.github.io/personal-profile/static/css/main.073c9b0a.css.map",
+    "main.0fd55895.js.map": "/jmoczynski.github.io/personal-profile/static/js/main.0fd55895.js.map",
+    "787.f586a476.chunk.js.map": "/jmoczynski.github.io/personal-profile/static/js/787.f586a476.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0fd55895.js"
+  ]
+}
