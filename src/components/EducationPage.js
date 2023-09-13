@@ -7,7 +7,7 @@ function EducationPage(){
     return(
         <Container>
             <h1 className="text-center">Education</h1>
-            <p>Click on each tab for more information about each part of my education.</p>
+            <p>Click on each tab for more information about each part of Justin's education.</p>
             <Row>
                 <Tab.Container>
                     <Row>

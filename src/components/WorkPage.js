@@ -53,7 +53,7 @@ function WorkPage(){
                 </Accordion>
             </Row>
             <h2>Documents</h2>
-            <Row>
+            <Row className="visually-hidden">
                 <Col>
                     <Card>
                         <Card.Title>Resume</Card.Title>
