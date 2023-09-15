@@ -19,7 +19,7 @@ code {
   align-content: center !important;
 }
 
-.row {
+.row, .col-md {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }

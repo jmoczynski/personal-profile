@@ -208,101 +208,101 @@ function SkillsPage(){
             <p>Click on each skill and certification to learn more about how Justin uses each of these skills and certifications.</p>
             <h3>Skills</h3>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Python}><Button>Python</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_R}><Button>R</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Java}><Button>Java</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_HTML}><Button>HTML</Button></OverlayTrigger>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_CSS}><Button>CSS</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_JavaScript}><Button>JavaScript</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_C}><Button>C</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Assembly}><Button>Assembly</Button></OverlayTrigger>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Tableau}><Button>Tableau</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Linux}><Button>Linux</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_MySQL}><Button>MySQL</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_SQLite}><Button>SQLite</Button></OverlayTrigger>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Docker}><Button>Docker</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_CPlusPlus}><Button>C++</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Flask}><Button>Flask</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Pwntools}><Button>Pwntools</Button></OverlayTrigger>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_MicrosoftExcel}><Button>Microsoft Excel</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_ReactJS}><Button>ReactJS</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_MongoDB}><Button>MongoDB</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_Ghidra}><Button>Ghidra</Button></OverlayTrigger>
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_gdb}><Button>gdb</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_GoogleSheets}><Button>Google Sheets</Button></OverlayTrigger>
                 </Col>
-                <Col className="visually-hidden">
+                <Col md className="visually-hidden">
                     <OverlayTrigger trigger="click" placement="top"><Button></Button></OverlayTrigger>
                 </Col>
-                <Col className="visually-hidden">
+                <Col md className="visually-hidden">
                     <OverlayTrigger trigger="click" placement="top"><Button></Button></OverlayTrigger>
                 </Col>
             </Row>
             <h3>Certifications</h3>
             <Row>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_CertExcelAssociate}><Button>Microsoft Office Specialist: Excel Associate</Button></OverlayTrigger>
                 </Col>
-                <Col>
+                <Col md>
                     <OverlayTrigger trigger="click" placement="top" overlay={popover_CertLifeguard}><Button>Lifeguarding with CPR/AED for Professional Rescuers and First Aid</Button></OverlayTrigger>
                 </Col>
-                <Col className="visually-hidden">
+                <Col md className="visually-hidden">
                     <OverlayTrigger trigger="click" placement="top"><Button></Button></OverlayTrigger>
                 </Col>
-                <Col className="visually-hidden">
+                <Col md className="visually-hidden">
                     <OverlayTrigger trigger="click" placement="top"><Button></Button></OverlayTrigger>
                 </Col>
             </Row>
