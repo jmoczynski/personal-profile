@@ -53,19 +53,19 @@ function WorkPage(){
                 </Accordion>
             </Row>
             <h2>Documents</h2>
-            <Row className="visually-hidden">
+            <Row>
                 <Col>
                     <Card>
                         <Card.Title>Resume</Card.Title>
-                        <Card.Text>Uploaded </Card.Text>
-                        <a>Download</a>
+                        <Card.Text>Uploaded 9/15/2023</Card.Text>
+                        <a href="/src/static/docs/Resume_JustinMoczynski_Profile.pdf" download>Download</a>
                     </Card>
                 </Col>
                 <Col>
                     <Card>
                         <Card.Title>Cover Letter</Card.Title>
-                        <Card.Text>Uploaded </Card.Text>
-                        <a>Download</a>
+                        <Card.Text>Uploaded 9/15/2023</Card.Text>
+                        <a href="/src/static/docs/CoverLetter_JustinMoczynski_Profile.pdf" download>Download</a>
                     </Card>
                 </Col>
             </Row>
