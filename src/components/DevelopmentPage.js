@@ -78,7 +78,12 @@ function DevelopmentPage(){
                             <Card.Body><p>Course</p></Card.Body>
                         </Card>
                     </Col>
-                    <Col></Col>
+                    <Col>
+                        <Card>
+                            <Card.Title>Getting Started with Vulnerability Management</Card.Title>
+                            <Card.Body><p>Course</p></Card.Body>
+                        </Card>
+                    </Col>
                 </Row>
             </Row>
             <Row>
